@@ -5,6 +5,8 @@ import ProgressCard from "@/components/ProgressCard";
 import BadgeShowcase from "@/components/BadgeShowcase";
 import TokenBalance from "@/components/TokenBalance";
 import LearningPathway from "@/components/LearningPathway";
+import { ThemeToggle } from "@/components/ThemeToggle";
+import { LanguageSelector } from "@/components/LanguageSelector";
 import heroImage from "@/assets/hero-image.jpg";
 import { 
   BookOpen, 
@@ -29,12 +31,14 @@ const Index = () => {
                 <Brain className="w-5 h-5 text-white" />
               </div>
               <span className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-                LearnDAO
+                MasteryMaker
               </span>
             </div>
             <div className="flex items-center gap-4">
               <Button variant="ghost">Features</Button>
               <Button variant="ghost">About</Button>
+              <LanguageSelector />
+              <ThemeToggle />
               <Button variant="hero">Join Beta</Button>
             </div>
           </div>
@@ -236,8 +240,8 @@ const Index = () => {
               <div className="w-6 h-6 bg-gradient-primary rounded-lg flex items-center justify-center">
                 <Brain className="w-4 h-4 text-white" />
               </div>
-              <span className="text-lg font-bold bg-gradient-primary bg-clip-text text-transparent">
-                LearnDAO
+               <span className="text-lg font-bold bg-gradient-primary bg-clip-text text-transparent">
+                MasteryMaker
               </span>
             </div>
             <div className="text-sm text-muted-foreground">

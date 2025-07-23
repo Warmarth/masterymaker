@@ -85,6 +85,7 @@ export default {
 				'gradient-secondary': 'var(--gradient-secondary)',
 				'gradient-success': 'var(--gradient-success)',
 				'gradient-warning': 'var(--gradient-warning)',
+				'gradient-accent': 'var(--gradient-accent)',
 			},
 			boxShadow: {
 				'elegant': 'var(--shadow-elegant)',
